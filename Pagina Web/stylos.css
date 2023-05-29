@@ -1,0 +1,113 @@
+body{
+    height: 100vw;
+}
+
+.Titulos{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.logo{
+    width: 320px;
+    height: 120px;
+    padding: 50px;
+    margin-left: 100px;
+}
+
+.Elementos{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.Elementos li{
+   display: flex;
+   margin-right: 150px;
+   font-family: monospace;
+   font-size: 20px;
+   height: 20px;
+}
+
+.Elementos li:hover{
+    cursor: pointer;
+    border-bottom: solid 4px #009BDB;
+}
+
+
+.informacion{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.derecha{
+    display: flex;
+    justify-content: center;
+}
+.mascota{
+    padding: 55px;
+    width: 550px;
+    height: 450px;
+}
+
+.izquierda{
+    display: flex;
+    flex-flow: column;
+}
+
+.fraseM{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90px;
+    padding: 35px;
+    text-align: center;
+}
+
+.frase{
+    color: #009BDB;
+    font-size: 80px;
+}
+
+.mision{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.mision-foto{
+    width: 1024px;
+    height: 1024px;
+    margin-left: -150px;
+}
+.mision-content{
+    padding: 100px;
+    margin-top: 180px;
+    text-align: center;
+}
+
+h1{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#m{ 
+    text-align: justify;
+    width: 50%;
+}
+#mision-texto{
+    display: flex;
+    justify-content: center;
+}
+
+
+.vision{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #009BDB;
+    opacity: 80%;
+}
+
+.vision-content{
+    text-align: justify;
+}
